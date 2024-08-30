@@ -58,6 +58,11 @@ from termicol.termicol import *
 
 tprint("<t=red><b=blue><d=underline>This will be underlined red text with blue background!")
 ```
+```py
+from termicol.termicol import *
+
+tprint("<t=red><b=blue>This will be red text with a blue background!<r>This will now be the default text.<t=red> Back to red text!<b=white> A blue backround is added.<r=b> Background is now default.")
+```
 ​
 <br />
 <br />
@@ -72,3 +77,6 @@ Valid tags to utilize:
 - d | deco | decorations
   - Will add in decorations based on what is provided, must be ones provided in the `showDecorationList()` function.
   - \<d=underline\> | \<d=underline,italic\>
+- r
+  - Will reset back to default, you can also specify what to reset and provide a list (but only accepts t,b,d).
+  - \<r\> | \<r=td\>
