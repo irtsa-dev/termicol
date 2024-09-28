@@ -1,3 +1,4 @@
+![PyPI](https://img.shields.io/pypi/v/idev-termicol) ![Python](https://img.shields.io/pypi/pyversions/idev-termicol)
 # **termicol**
 A [**python**](https://www.python.org) Simple **python** function aimed to handle printing of colored and / or decorated text to console / terminal.
 <br />
@@ -7,6 +8,10 @@ A [**python**](https://www.python.org) Simple **python** function aimed to handl
 With `git` [GitHub](https://github.com/irtsa-dev/termicol):
 ```
 git clone https://github.com/irtsa-dev/termicol.git
+```
+With `pip` [PyPi](https://pypi.org/project/idev-termicol/)
+```
+pip install idev-termicol
 ```
 <br />
 <br />
