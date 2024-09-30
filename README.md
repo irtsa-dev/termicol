@@ -34,10 +34,6 @@ tprint(content: str, end: str = '\n')
 # To do so, <> is used similar to html.
 # Example being: <t=white>hello
 
-printRGBColor(text: str, textRGB: tuple, backgroundRGB: tuple = (), decorations: list | str = [], end: str = '\n')
-# Prints off text and background in the given rgb value with provided decorations.
-
-
 showColorList()
 # Prints off a list of valid arguments for color.
 
