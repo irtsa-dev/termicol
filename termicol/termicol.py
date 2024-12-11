@@ -133,6 +133,9 @@ def __convertParsedContent(content: list):
                 if 'd' in reset: decorations = []
             newcontent.append('\033[0m')
 
+        elif '<nl>' in content[i]:
+            newcontent.append('\n')
+
         elif any([True for code in __Codes['textcolor'] if code in content[i]]):
             color = content[i].split('=')[1].replace('>','')
             if color in __Colors: textColor = __createColor(__Colors[color], content[i])
