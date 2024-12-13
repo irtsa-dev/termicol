@@ -81,3 +81,6 @@ Valid tags to utilize:
 - r
   - Will reset back to default, you can also specify what to reset and provide a list (but only accepts t,b,d).
   - \<r\> | \<r=td\>
+- nl
+  - Indicates a newline (basically doing `\n`)
+  - \<nl\>
